@@ -1,7 +1,3 @@
-Sure, I'd be happy to explain the provided code!
-
-This code snippet appears to be a simple JavaScript game involving a character resembling Mario and a moving pipe. Let's break down the code step by step:
-
 The code selects the HTML elements representing Mario and the pipe on the screen using the classes '.mario' and '.pipe', respectively. It also selects elements with the classes '.start' and '.game-over' and creates two instances of the Audio class for playing sound effects.
 
 The startGame function is defined. When called, it starts the game by adding a CSS class called 'pipe-animation' to the pipe element, which likely triggers some animation. It also hides the element with class 'start' by changing its display style to 'none'. Additionally, it plays the 'audio_theme.mp3' sound.
